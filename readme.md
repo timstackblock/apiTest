@@ -1,5 +1,5 @@
 # apiTest
-apiTest is a node script for testing transactions on micro block api and anchor block api.
+apiTest is a typescript repo for testing transactions api data and verifying the progression of a transaction to the microblock and anchorblock.
 
 ### Prerequisites
 
