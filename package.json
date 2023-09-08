@@ -1,0 +1,27 @@
+{
+    "name": "custom_stacks_application",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "devDependencies": {
+        "@types/node": "^18.11.12",
+        "prettier": "2.8.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.4"
+    },
+    "scripts": {
+        "test": "ts-node ./script/index.ts",
+        "triggerAnchorBlockTests": "ts-node ./script/index.ts triggerAnchorBlockTests",
+        "triggerDeployTestContract": "ts-node ./script/index.ts triggerDeployTestContract",
+        "api404Test": "ts-node ./script/index.ts api404Test",
+        "stx": "stx"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@stacks/cli": "^3.5.0",
+        "axios": "^1.2.1",
+        "dotenv": "^16.0.3"
+    }
+}
